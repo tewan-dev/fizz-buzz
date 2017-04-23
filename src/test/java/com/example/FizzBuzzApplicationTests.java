@@ -62,12 +62,4 @@ public class FizzBuzzApplicationTests {
 		String result = fizzBuzzApplication.calculate(30);
 		Assert.assertEquals("FizzBuzz",result);
 	}
-
-	@Test
-	public void t08_it_should_return_30_when_input_30() {
-		FizzBuzzApplication fizzBuzzApplication = new FizzBuzzApplication();
-		String result = fizzBuzzApplication.calculate(30);
-		Assert.assertEquals("30",result);
-	}
-
 }
